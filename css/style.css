@@ -1,0 +1,70 @@
+#total{
+	margin: 0 auto;
+	width: 700px;
+	height: 1000px;
+	background-color: #e9fbff;
+}
+#header{
+	width: 700px;
+	height: 170px;
+	background: url(../images/banner1.jpg);
+}
+#nav{
+	position: relative;
+	width: 700px;
+	height: 170px;
+}
+#nav ul{
+	position: absolute;
+	bottom: 2px;
+	left: 40px;
+}
+#nav li{
+	float: left;
+	margin-right: 40px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+#nav li a:hover{
+	color: red;
+}
+#main{
+	width: 700px;
+	
+}
+#main #left{
+	height: 800px;
+	width: 200px;
+	background: url(../images/bg2.jpg);
+	float: left;
+}
+#main #left .into{
+	height: 170px;
+	width: 160px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+#main #left .content{
+	width: 160px;
+	margin-left: 15px;
+	color: darkcyan;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+#main #right{
+	height: 800px;
+	width: 500px;
+	float: left;
+}
+#right .right-content p{
+	margin: 10px 0 30px 15px;
+	text-indent: 10px;
+}
+#pic-content #content{
+	width: 150px;
+	position: relative;
+}
+#footer{
+	text-align: center;
+	height: 30px;
+}
