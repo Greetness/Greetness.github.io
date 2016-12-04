@@ -1,16 +1,16 @@
 body{
-	background:#996600;
+	background: burlywood;
 }
 #container{
-	width: 900px;
+	width: 1000px;
 	margin: 0 auto;
 }
 #head{
-	width: 900px;
+	width: 1000px;
 	height: 250px;
 }
 #logo{
-	width: 900px;
+	width: 1000px;
 	height: 160px;
 	background: url(../img/Mypsd_59710_201311110840470194B.jpg);
 	text-align: center;
@@ -20,17 +20,17 @@ body{
 	font-size:35px;
 	color: navajowhite;
 	font-family: "微软雅黑";
+	margin-top: 20px;
 	margin-bottom: 10px;
 }
-#logo p{
-	font-size: 20px;
-	color: black;
+#logo span{
+	font-size:25px;
+	color: blueviolet;
 	font-family: "微软雅黑";
-	margin-bottom: 10px;
 }
 #nav{
 	height: 40px;
-	width: 900px;
+	width: 1000px;
 	background: saddlebrown;
 }
 #nav ul{
@@ -56,13 +56,41 @@ body{
 	background: burlywood;
 }
 #main #left{
-	width: 200px;
-	
+	width: 195px;
+	height: 1300px;
 	float: left;
+	background: burlywood;
+	padding: 10px 0 0 10px;
+	border: 1px solid darkkhaki;
+}
+#left #pass{
+	margin-top: 15px;
+}
+#left #pass li{
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+#left #more{
+	float: right;
+	font-size: 25px;
+}
+#left #more a{
+	color: red;
 }
 #main #right{
-	width: 700px;
-	
+	width: 780px;
+	height: 1300px;
 	float: left;
+	background: antiquewhite;
+	padding: 10px 0 0 10px;
+}
+#right #content{
+	height: 700px;
+	width: 600px;
+	word-wrap: break-word; 
+	text-indent: 15px;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	margin-left: 40px;
 }
 
