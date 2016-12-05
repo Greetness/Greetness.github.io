@@ -57,7 +57,7 @@ body{
 }
 #main #left{
 	width: 195px;
-	height: 1300px;
+	height: 1000px;
 	float: left;
 	background: burlywood;
 	padding: 10px 0 0 10px;
@@ -79,7 +79,7 @@ body{
 }
 #main #right{
 	width: 780px;
-	height: 1300px;
+	height: 1000px;
 	float: left;
 	background: antiquewhite;
 	padding: 10px 0 0 10px;
@@ -90,7 +90,7 @@ body{
 	word-wrap: break-word; 
 	text-indent: 15px;
 	font-family: "微软雅黑";
-	font-size: 20px;
+	font-size: 15px;
 	margin-left: 40px;
 }
 
