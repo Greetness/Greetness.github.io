@@ -1,8 +1,6 @@
-*{
-	padding: 0;
-	margin: 0;
-}
+
 #wrap{
+	height:1495px;
 	width: 100%;
 	/*background: #1e50ae;*/
 }
