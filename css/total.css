@@ -49,8 +49,7 @@
 		}
 		#head_top #nav li a:hover{
 			background: white;
-			color: cornflowerblue;
-			
+			color: cornflowerblue;			
 			-webkit-border-radius: 5px;
 			-moz-border-radius: 5px;
 			border-radius: 5px;
@@ -62,7 +61,7 @@
 			
 		}
 		#head_pics{
-			height: 50vh;
+			height: 70%;
 			width: 100vw;
 			position: relative;
 		}
