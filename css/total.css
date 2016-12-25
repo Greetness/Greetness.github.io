@@ -4,7 +4,6 @@
 		#wrap{
 		height: 1500px;
 		width: 100vw;
-		margin: 0 auto;
 		/*background: #1e50ae;*/
 		}
 		#head{
@@ -122,7 +121,7 @@
 		}
 		#intro{
 			height: 35%;
-			width: 100vw;/*900*0.8*/
+			width: 90vw;/*900*0.8*/
 			margin: 20px 0 0 10vw;
 		}
 		#intro p{
@@ -138,9 +137,9 @@
 		}
 		#intro #right{
 			height: 100%;
-			width: 32%;
+			width: 25%;
 			float: left;
-			margin-left: 5vw;
+			margin-left: 3vw;
 			overflow: hidden;
 		}
 		#content_right ul{
