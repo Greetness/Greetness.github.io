@@ -65,7 +65,7 @@
 	position: relative;
 }
 #main{
-	width: 70%;
+	width: 75%;
 	height: 700px;
 	margin: 0 auto;
 }
@@ -108,7 +108,7 @@
 	padding-top: 10px;
 }
 #right{
-	width: 75%;
+	width: 70%;
 	height: 90%;
 	margin-top: 10px;
 	margin-left: 25px;
@@ -126,22 +126,16 @@
 	padding-top: 5px;
 }
 #textone p{
-	margin-top: 15px;
-	line-height: 1.5em;
+	line-height: 2em;
 }
-.head_right_p{
-	font-size: 16px;
-	font-family: "微软雅黑";
+.head_p{
+	margin-top: 10px;
 	font-weight: bold;
 }
-.zhaoping{
-	margin-top: 30px;
-}
-#last_p{
-	margin-top: 30px;
-	font-size: 16px;
-	font-family: "微软雅黑";
-	font-weight:bold;
+#textone h3{
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 10px;	
 }
 #foot{
 	height: 100px;

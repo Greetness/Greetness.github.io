@@ -47,7 +47,7 @@
 	width: 100%;
 	height: 100%;
 }
-#head_top #nav li a:hover{
+#head_top #nav li a:hover,.con_div img,h3{
 	background: white;
 	color: cornflowerblue;
 		-webkit-border-radius: 5px;
@@ -65,84 +65,81 @@
 	position: relative;
 }
 #main{
-	width: 70%;
-	height: 700px;
+	width: 76%;
+	height: 1000px;
 	margin: 0 auto;
+	background: url(../img/nbg.gif) no-repeat;
 }
-#left{
-	width: 20%;
-	height: 25%;
-	float: left;
-	margin-top: 10px;
-}
-#this a{
-	color: cornflowerblue;
-}#left ul{
+#main span{
+	display: block;
+	height: 40px;
 	width: 100%;
+	font-size: 19px;
+	padding-left: 70px;
+	font-family: "黑体";
+	line-height: 35px;
+	letter-spacing: 2px;
+}
+#main ul{
+	width: 90%;
 	height: 100%;
-	border: 1px solid gainsboro;
-}
-#left ul li{
-	width: 100%;
-	height: 20%;
-	line-height: 100%;
-	
-}
-#left ul li a{
-	 width: 100%;
-	 height: 100%;
-	 display: block; 
-}
-#left ul .title{
-	width: 80%;
 	margin: 0 auto;
-	text-align: center;
-	font-size: 15px;
-	display: block; 
-	margin-top:10px;
 }
-#head_li{
-	font-size: 20px;
-	background: mediumblue;
-	color: white;
-	padding-top: 10px;
-}
-#right{
-	width: 75%;
-	height: 90%;
-	margin-top: 10px;
-	margin-left: 25px;
-	float: left;
-	font-family: "微软雅黑";
-}
-#textone h2{
-	height: 30px;
-	padding-top: 5px;
-	font-size: 20px;
-}
-#textone{
-	width:100%;
-	height: 50%;
-	padding-top: 5px;
-}
-#textone p{
+#main ul li{
+	width: 100%;
+	height: 30%;
 	margin-top: 15px;
-	line-height: 1.5em;
+	background: url(../img/news11_10.gif) repeat-x 0 bottom;
 }
-.head_right_p{
-	font-size: 16px;
-	font-family: "微软雅黑";
+#main ul li .picture{
+    float: left;
+    width: 35%;
+    height: 90%;
+    display: inline;
+    margin: 0 15px;
+    border: 1px solid #F5F5F5;
+}
+#main ul li .picture img{
+	width: 100%;
+    height: 100%;
+}
+#main ul li .example_title{
+    float: left;
+    width: 50%;
+    height: 30px;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    line-height: 30px;
+    overflow: hidden;
+    border-bottom: 1px dotted #ccc;
+}
+#main ul li .detail{
+    float: left;
+    width: 60%;
+    height: 85%;
+    line-height: 28px;
+    overflow: hidden;
+    color: #aaa;
+}
+#main ul li .detail .tec{
+	color: gray;
 	font-weight: bold;
 }
-.zhaoping{
-	margin-top: 30px;
-}
-#last_p{
-	margin-top: 30px;
-	font-size: 16px;
+#main ul li .detail p{
 	font-family: "微软雅黑";
-	font-weight:bold;
+	color: #4A4A4A;
 }
+/*h3{
+	background-color:gainsboro;
+	width: 98%;
+	height: 30px;
+	margin: 0 auto;
+	padding-left: 8px;
+	padding-top: 5px;
+}
+.con_div{
+	height: 80%;
+}*/
 #foot{
 	height: 100px;
 	width: 100%;
