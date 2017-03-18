@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+
+/*头部信息*/
+
+#topbar {
+    width: 100%;
+    font-size: 16px;
+}
+
+#topbar a {
+    text-decoration: none;
+    color: #635c5c;
+}
+
+.intro {
+    width: 25%;
+    float: left;
+}
+
+.intro a {
+    line-height: 50px;
+}
+
+.show {
+    float: left;
+    margin-top: 15px;
+    margin-left: 40%;
+    font-size: 13px;
+}
+
+.show>label a {
+    color: red;
+}
+
+#port {
+    width: 16.7%;
+    float: right;
+    line-height: 20px;
+    margin: 8px auto;
+}
+
+.sign-up {
+    padding-right: 15px;
+}
+
+.sign-in {
+    border: 1px solid #41e434;
+    color: #41e434;
+}
+
+.sign-in:hover {
+    background: #c6f7c2;
+    color: #fff;
+    border: 1px solid #41e434;
+}
+
+
+/*nav*/
+
+.navbar-default {
+    background-color: #fff;
+    border: none;
+    margin-bottom: 1px;
+    box-shadow: 0px 2px 8px 0px rgba(195, 191, 191, 0.55);
+}
+
+.navbar-default .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: #40D2B1;
+    height: 70px;
+    line-height: 35px;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background-color: #fff;
+    border-bottom: 2px solid #41e434;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+    font-weight: 400;
+    height: 70px;
+    line-height: 40px;
+    display: block;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    border-bottom: 2px solid #41e434;
+    color: #41e434;
+}
+
+.navbar-toggle {
+    margin-top: 20px;
+}
+
+.navbar-default .navbar-nav>li>span {
+    margin-top: 15px;
+}
+
+.vline {
+    background-image: url(../images/menu_vline.jpg);
+    display: block;
+    height: 40px;
+    width: 18px;
+    margin: 0 auto;
+    float: right;
+}
+
+
+/*load nav*/
+
+@media screen and (max-width: 767px) {
+    .load-nav form {
+        display: none;
+    }
+}
+
+.load-nav {
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+.load-nav form {
+    border: 1px solid #e8e6e6;
+}
+
+.load-nav input {
+    height: 28px;
+    padding-left: 4px;
+    border: 0;
+    padding: 0;
+}
+
+#searchsubmit {
+    display: block;
+    z-index: 2;
+    height: 28px;
+    width: 28px;
+    border: 0;
+    padding: 0;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color: #0099cc;
+    background: #333 url('../images/search.png') 0 0 no-repeat;
+}
+
+
+/*footer*/
+
+footer {
+    margin: 0;
+}
+
+footer .col-md-12 {
+    padding: 0;
+}
+
+footer #info {}
+
+footer #foot p {
+    line-height: 40px;
+    text-align: center;
+    font-size: 1.1em;
+    background: #212121;
+    color: #fff;
+}

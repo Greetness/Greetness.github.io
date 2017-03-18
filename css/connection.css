@@ -1,0 +1,100 @@
+#head-load-nav {
+    background: #e9e9e9;
+}
+
+.load-nav ol {
+    background: #ffffff;
+}
+
+.container ul li {
+    list-style-type: none;
+}
+
+.container ul li a:hover {
+    text-decoration: none;
+    color: orangered;
+    cursor: pointer;
+}
+
+#main {
+    background-color: #e9e9e9;
+}
+
+.content2 {
+    border: 1px solid lightgray;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+}
+
+.col-md-8 {}
+
+.col-md-3 img {
+    margin: 0 auto;
+}
+
+.col-md-4 {}
+
+.last {
+    padding: 15px 0;
+}
+
+time {
+    color: gray;
+}
+
+#banzhu {
+    background: #ffffff;
+    padding: 15px;
+}
+
+#banzhu li {}
+
+#info-banzhu {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+#img-container {
+    width: 40%;
+    display: inline-block;
+}
+
+#info-banzhu ul {
+    width: 40%;
+    padding-top: 0;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+#info-banzhu ul li {
+    padding-top: 5px;
+}
+
+#info-last {
+    padding-top: 15px;
+    clear: both;
+}
+
+#introduce {
+    margin-top: 15px;
+    background: #ffffff;
+}
+
+#introduce h3 {
+    padding: 15px;
+    background: none repeat scroll 0 0 #fbfbfb;
+}
+
+#introduce p {
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.foot-as {
+    color: gray;
+}
+
+.foot-as:hover {
+    color: dodgerblue !;
+}

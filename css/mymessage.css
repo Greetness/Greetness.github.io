@@ -1,0 +1,26 @@
+/*个人主页右侧*/
+
+.touimg .col-md-7 {
+    border: 1px solid lightgray;
+    padding: 30px;
+    padding-top: 0;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+#touimg_content ul li {
+    list-style: none;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+#touimg_content ul li a:hover {
+    cursor: pointer;
+    color: orangered;
+    text-decoration: none;
+}
+
+.message_title {
+    font-weight: bold;
+}

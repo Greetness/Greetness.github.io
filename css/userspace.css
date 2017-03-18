@@ -1,0 +1,104 @@
+/*个人主页右侧*/
+
+.touimg .col-md-7 {
+    border: 1px solid lightgray;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.nav-tabs li {
+    font-size: 1.2em;
+}
+
+.tab-pane ul {
+    list-style: none;
+    background: #fff;
+    padding-top: 15px;
+}
+
+time {
+    color: gray;
+}
+
+.action {
+    font-weight: bold;
+}
+
+
+/*个人简介*/
+
+.intro2 {
+    padding: 35px;
+    line-height: 25px;
+}
+
+
+/*积分*/
+
+.foo {
+    padding-left: 15px;
+}
+
+.foo span {
+    float: right;
+}
+
+.member-rapution-item {
+    font-size: 14px;
+    list-style: none;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px 0;
+    text-align: left;
+    width: 100%;
+}
+
+.item-event {
+    width: 25%;
+    display: inline-block;
+}
+
+.item-event p {
+    padding: 0;
+    margin: 0;
+    vertical-align: center;
+}
+
+.item-content {
+    width: 50%;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.item-content p {
+    padding: 0;
+    margin: 0;
+}
+
+.item-time {
+    width: 18%;
+    float: right;
+    text-align: right;
+}
+
+
+/*粉丝*/
+
+.member-rapution-support {
+    font-size: 14px;
+    list-style: none;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px 0;
+    text-align: left;
+    width: 100%;
+}
+
+.item-name {
+    display: inline-block;
+    padding-left: 35px;
+}
+
+.item-time-support {
+    width: 35%;
+    float: right;
+}

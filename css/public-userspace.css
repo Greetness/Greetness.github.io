@@ -1,0 +1,43 @@
+/*个人主页左侧*/
+
+.touimg .col-md-4 {
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    margin: 15px;
+}
+
+#touxaing {
+    float: left;
+    width: 50%;
+}
+
+#first img {
+    margin: 10px auto;
+}
+
+#username a {
+    padding-left: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #212121;
+}
+
+#username a:hover {
+    display: none;
+}
+
+#sec ul li {
+    border-radius: 6px;
+    width: 33%;
+    text-align: center;
+    line-height: 20px;
+    float: left;
+    border: 1px solid lightgray;
+    list-style-type: none;
+}
+
+.same {
+    line-height: 60px;
+    padding-left: 20px;
+    border-bottom: 1px solid lightgray;
+}

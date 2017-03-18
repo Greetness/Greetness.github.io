@@ -1,0 +1,33 @@
+ .imgcontainer {
+     width: 20%;
+     height: 100%;
+     display: inline-block;
+ }
+ 
+ @media screen and (max-width: 767px) {
+     .imgcontainer {
+         width: 20%;
+         height: 100%;
+         display: inline-block;
+         float: left;
+         padding: 10px;
+         margin: 0 auto;
+     }
+ }
+ 
+ .imgcontainer img:hover {
+     cursor: pointer;
+     background: gray;
+ }
+ 
+ .imgcontainer ul {
+     text-align: center;
+ }
+ 
+ .imgcontainer li>a {
+     line-height: 50px;
+ }
+ 
+ .imgcontainer li a span {
+     color: #41e434;
+ }

@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+
+/*头部信息*/
+
+#topbar {
+    width: 100%;
+    font-size: 16px;
+}
+
+#topbar a {
+    text-decoration: none;
+    color: #635c5c;
+}
+
+.intro {
+    width: 25%;
+    float: left;
+}
+
+.intro a {
+    line-height: 50px;
+}
+
+.show {
+    float: left;
+    margin-top: 15px;
+    margin-left: 40%;
+    font-size: 13px;
+}
+
+.show>label {
+    color: red;
+}
+
+#port {
+    width: 16.7%;
+    float: right;
+    line-height: 20px;
+    margin: 8px auto;
+}
+
+.sign-up {
+    padding-right: 15px;
+}
+
+.sign-in {
+    border: 1px solid #41e434;
+    color: #41e434;
+}
+
+.sign-in:hover {
+    background: #c6f7c2;
+    color: #fff;
+    border: 1px solid #41e434;
+}
+
+
+/*nav*/
+
+.navbar-default {
+    background-color: #fff;
+    border: none;
+    margin-bottom: 1px;
+    box-shadow: 0px 2px 8px 0px rgba(195, 191, 191, 0.55);
+}
+
+.navbar-default .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: #40D2B1;
+    height: 70px;
+    line-height: 35px;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background-color: #fff;
+    border-bottom: 2px solid #41e434;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+    font-weight: 400;
+    height: 70px;
+    line-height: 40px;
+    display: block;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    border-bottom: 2px solid #41e434;
+    color: #41e434;
+}
+
+.navbar-toggle {
+    margin-top: 20px;
+}
+
+.navbar-default .navbar-nav>li>span {
+    margin-top: 15px;
+}
+
+.vline {
+    background-image: url(../images/menu_vline.jpg);
+    display: block;
+    height: 40px;
+    width: 18px;
+    margin: 0 auto;
+    float: right;
+}
+
+
+/*轮播图*/
+
+#main_ad>.carousel-inner>.item {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+/* 当屏幕宽度大于768时，将元素高度设置为410px */
+
+@media (min-width: 768px) {
+    #main_ad>.carousel-inner>.item {
+        height: 450px;
+    }
+}
+
+#main_ad>.carousel-inner>.item>img {
+    width: 100%;
+}
+
+
+/*健康小贴士*/
+
+#bbs {
+    padding: 80px 0;
+    text-align: center;
+}
+
+#bbs .col-md-4 {
+    padding: 15px;
+}
+
+#bbs .col-md-4 h3 {
+    font-weight: bold;
+}
+
+#bbs .col-md-4 img {
+    margin: 0 auto;
+}
+
+#bbs .col-md-4 a {
+    color: #212121;
+    text-decoration: none;
+}
+
+#bbs .col-md-4:hover {
+    background: #f1f1f1;
+    padding-top: 2px;
+    box-shadow: 1px 1px 4px #ccc;
+}
+
+
+/*健身知识*/
+
+#acknowladge {
+    padding: 80px 0;
+    font-size: 1.1em;
+    background: #e2f5e3;
+}
+
+#acknowladge h2 {
+    font-weight: bold;
+}
+
+#acknowladge p {
+    line-height: 25px;
+}
+
+#acknowladge img {
+    margin: 0 auto;
+}
+
+
+/*健身计划*/
+
+#plan {
+    padding: 80px 0;
+}
+
+#plan h2 {
+    font-weight: bold;
+}
+
+#plan p {
+    line-height: 25px;
+    font-size: 1.1em;
+}
+
+span.glyphicon.glyphicon-grain.mai-icon {
+    background: #40D2B1;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#plan img {
+    margin: 0 auto;
+}
+
+
+/*course*/
+
+#course {
+    padding: 80px 0;
+    background: #e2f5e3;
+    text-align: center;
+}
+
+#course h2 {
+    font-weight: bold;
+    padding-bottom: 80px;
+}
+
+#course .col-md-4 {
+    margin-bottom: 20px;
+}
+
+.course {
+    background: #fff;
+}
+
+#course .col-md-4 h3 {
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+#course .btn {
+    background: transparent;
+    border: 1px solid #40D2B1;
+    border-radius: 0px;
+    color: #40D2B1;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+
+#course .btn:hover {
+    background: #40D2B1;
+    color: #fff;
+}
+
+#course img {
+    margin: 0 auto;
+}
+
+
+/*contact*/
+
+#contact {
+    background: url("../images/home-bg.jpg") no-repeat;
+    width: 100%;
+}
+
+#contact h2 {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+#contact p {
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+#contact .form-control {
+    border: 0;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#contact textarea.form-control {
+    height: auto;
+}
+
+#contact input[type="submit"] {
+    background: #40D2B1;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+#contact input[type="submit"]:hover {
+    background: rgb(44, 142, 120);
+}
+
+.lvjing {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 90px 0px;
+    color: #ffffff;
+}
+
+
+/*footer*/
+
+footer {
+    margin: 0;
+}
+
+footer .col-md-12 {
+    padding: 0;
+}
+
+footer #info {}
+
+footer #foot p {
+    line-height: 40px;
+    text-align: center;
+    font-size: 1.1em;
+    background: #212121;
+    color: #fff;
+}
